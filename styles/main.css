@@ -30,14 +30,16 @@ body {
     line-height: 100px;
     text-align: center;
     -webkit-box-sizing: content-box;
-            box-sizing: content-box; }
+            box-sizing: content-box;
+    -webkit-transition: background-color 500ms, -webkit-transform 500ms;
+    transition: background-color 500ms, -webkit-transform 500ms;
+    transition: background-color 500ms, transform 500ms;
+    transition: background-color 500ms, transform 500ms, -webkit-transform 500ms; }
     .calendar div:hover {
       cursor: pointer;
       background-color: #ffbfcb;
       -webkit-transform: translateY(-20px);
-              transform: translateY(-20px);
-      -webkit-transition-duration: 500ms;
-              transition-duration: 500ms; }
+              transform: translateY(-20px); }
 
 .calendar-28 > div:nth-child(1) {
   display: block; }
