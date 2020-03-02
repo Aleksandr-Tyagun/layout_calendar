@@ -31,12 +31,12 @@ body {
     line-height: 100px;
     text-align: center;
     box-sizing: content-box;
+    transition: background-color 500ms, transform 500ms;
 
     &:hover {
       cursor: pointer;
       background-color: #ffbfcb;
       transform: translateY(-20px);
-      transition-duration: 500ms;
     }
   }
 }
